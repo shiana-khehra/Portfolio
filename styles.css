@@ -12,12 +12,12 @@ body {
 
 #bottom-cloud {
     position: absolute;
-    left: 25%;
+    left: 10%;
 }
 
 #top-cloud {
     position: absolute;
-    right: 25%;
+    right: 15%;
     top: 10%;
 }
 
@@ -166,5 +166,49 @@ p {
     .mountain-image {
         width: 70%;
         height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    div {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        max-width: 100%;
+        height: auto;
+        border-spacing: 5rem 1rem;
+    }
+
+    #bottom-cloud {
+        position: absolute;
+        left: 5%;
+        width: 20%;
+        height: auto;
+    }
+    
+    #top-cloud {
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        width: 20%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    table {
+        max-width: 100%;
+        height: auto;
+        border-spacing: 3rem 0.5rem;
     }
 }
