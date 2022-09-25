@@ -120,3 +120,51 @@ p {
     margin: 2rem auto 0 auto;
     color: #0c5252;
 }
+
+@media (max-width: 844px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    #bottom-cloud {
+        position: absolute;
+        left: 10%;
+    }
+
+    #top-cloud {
+        position: absolute;
+        right: 10%;
+        top: 7%;
+    }
+
+    .my-pic, .skills-pic {
+        width: 30%;
+        height: auto;
+    }
+
+    .myIntro {
+        width: 70%;
+    }
+}
+
+@media (max-width: 685px) {
+    #bottom-cloud {
+        position: absolute;
+        left: 5%;
+    }
+    
+    #top-cloud {
+        position: absolute;
+        right: 5%;
+        top: 5%;
+    }
+
+    .mountain-image {
+        width: 70%;
+        height: auto;
+    }
+}
