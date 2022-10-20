@@ -162,7 +162,7 @@ p {
         font-size: 1rem;
     }
 
-    h3 {
+    h4 {
         font-size: 1.5rem;
     }
 
@@ -204,7 +204,7 @@ p {
         height: auto;
     }
 
-    h3 {
+    h4 {
         font-size: 1.2rem;
     }
 }
@@ -240,7 +240,7 @@ p {
         font-size: 3rem;
     }
 
-    h3 {
+    h4 {
         font-size: 1rem;
     }
 }
@@ -250,8 +250,8 @@ p {
         font-size: 2rem;
     }
 
-    h3 {
-        font-size: 0.8rem;
+    h4 {
+        font-size: 0.6rem;
     }
     #top-cloud {
         right: 10%;
